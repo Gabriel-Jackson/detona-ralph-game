@@ -13,8 +13,8 @@ const state = {
     paused: false
   },
   actions: {
-    // timerId: setInterval(randomSquare, 1000),
-    // countDownTimerId: setInterval(countDown, 1000),
+    timerId: setInterval(randomSquare, 1000),
+    countDownTimerId: setInterval(countDown, 1000),
   }
 }
 function randomSquare(){
