@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Detona Ralph</title>
 
+  <link rel="shortcut icon" href="./src/imgs/favicon.jpg" type="image/x-icon">
   <!-- Font Press2P -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -29,8 +30,8 @@
       </div>
       <div class="menu-lives">
         <img src="./src/imgs/player.png" alt="foto do jogador" height="80px"/>
-        <h2>x3</h2>
-        <button class="pause-btn" onclick="pauseGame()">||</button>
+        <h2 id="life-count">x3</h2>
+        <button class="pause-btn" onclick="playPauseGame()">||</button>
       </div>
     </div>
     <div class="panel">
@@ -58,7 +59,7 @@
         <h2>Pause</h2>
         <button class="close-modal" onclick="
           closeModal('pause');
-          playGame();">X</button>
+          playPauseGame();">X</button>
       </div>
       <div class="modal-body">
         <h3>Scoreboard: </h3>

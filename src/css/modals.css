@@ -27,6 +27,7 @@
   transform: translateY(0);
 }
 .modal-content {
+  position: relative;
   display: flex;
   flex-direction: column;
 
@@ -35,7 +36,7 @@
 
   background-image: url("../imgs/wall.png");
 
-  box-shadow: inset 4px 3px 26px 1.5rem rgba(0,0,0,0.75);
+  box-shadow: 4px 3px 26px 1.5rem rgba(0,0,0,0.75);
   border-radius: 1rem 1rem 0 0;
 
   padding: 1.75rem;
@@ -45,6 +46,10 @@
   letter-spacing: .35rem;
 }
 
+
+.modal-body, .modal-head {
+  z-index: 2;
+}
 .modal-head {
   display: flex;
   justify-content: space-between;
@@ -91,9 +96,6 @@
     height: 75%;
 
     border-radius: 1rem;
-    
-    box-shadow: inset 3px 3px 45px 3rem rgba(0,0,0,0.85);
-
     padding-inline: 3rem;
   }
 }

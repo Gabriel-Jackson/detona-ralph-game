@@ -8,13 +8,21 @@ Bem-vindo ao **JSGame Detona Ralph**! Neste repositório, você encontrará um j
 - JavaScript para a lógica de programação e interatividade.
 - Sprites e imagens customizadas para criar a estética única do universo de Detona Ralph.
 
+### Novidades
+
+- **Sistema de vidas implementado!!!**
+- **Novos sons adicionados!!**
+
+
 ### Funcionalidades Incríveis
 
 - **Sistema de Pontuação**: Acompanhe sua pontuação à medida que progride no jogo e desafie seus amigos a superá-la, clique no quadrado que o Ralph se encontra
 
-- **Sistema de Pause/Play (Adicionado)**: Pause o jogo caso precise de um tempo e retome com tudo quando tiver acabado!!
+- **Sistema de Pause/Play**: Pause o jogo caso precise de um tempo e retome com tudo quando tiver acabado!!
 
-- **Conteúdo Responsivo (Adicionado)**: Jogo desenvolvido seguindo a filosofia mobile first!! Jogue no celular, computador ou tablet!
+- **Sistema de vidas**: Além do tic-tac do relógio, você terá que tomar cuidado para não clicar em nenhum quadrado errado;
+
+- **Conteúdo Responsivo**: Jogo desenvolvido seguindo a filosofia mobile first!! Jogue no celular, computador ou tablet!
 
 ### Como Jogar
 
@@ -31,8 +39,6 @@ Contribuições são bem-vindas! Se você deseja melhorar este jogo, adicionar n
 ### Possíveis Atualizações
 
 - **Sistema de Scoreboard**: Logo você poderá ter um registro dos seu records no menu de pause;
-
-- **Sistema de vidas**: Além do tic-tac do relógio, você terá que tomar cuidado para não clicar em nenhum quadrado errado;
 
 - **Sistema de fases**: Ralph vai ficando mais rápido com o passar das fases;
 
